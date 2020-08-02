@@ -3,7 +3,7 @@
 {
   "name": "Azure SWA",
   "dockerFile": "Dockerfile",
-  "forwardPorts": [7071],
+  "forwardPorts": [7071, 5500],
 
   // Set *default* container specific settings.json values on container create.
   "settings": {
@@ -21,7 +21,7 @@
   ],
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  "postCreateCommand": "npm install"
+  "postCreateCommand": ""
 
   // Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
   //   "remoteUser": "node"
