@@ -1,6 +1,13 @@
 {
   "version": "2.0",
   "logging": {
+    "logLevel": {
+      "default": "Information",
+      "Host": "Error",
+      "Function": "Trace",
+      "Host.Aggregator": "Information"
+    },
+    "fileLoggingMode": "always",
     "applicationInsights": {
       "samplingSettings": {
         "isEnabled": true,
